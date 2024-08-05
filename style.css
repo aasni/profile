@@ -1,0 +1,66 @@
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(117, 159, 159);
+  font-size: 20px;
+  line-height: 15px;
+}
+
+h1,h2,h3 {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  line-height: 40px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
