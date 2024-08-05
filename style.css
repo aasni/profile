@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Khitan+Small+Script&family=Rubik+Bubbles&display=swap');
 p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(117, 159, 159);
-  font-size: 20px;
-  line-height: 15px;
+  font-family: "Rubik Bubbles", system-ui;
+  color: rgb(116, 116, 95);
+  font-size: 12px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 25%;
+}
+
+.btn-blue {
+  background-color: #e1d56b;
+  color: rgb(149, 127, 54);
+  padding: 7px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
 }
 
 h1,h2,h3 {
-  color: green;
+  color: rgb(102, 62, 45);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  line-height: 40px;
+  font-size: 27px;
+  line-height: 35px;
 }
 
 a {
   color: blue;
+  text-decoration: none;
 }
 
 a:hover {
@@ -26,7 +47,7 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 700px;
   margin: 70px auto;
 }
 
@@ -37,6 +58,7 @@ body {
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
+  background-color: rgb(212, 201, 187);
 }
 
 .list-inline {
@@ -44,23 +66,22 @@ body {
   padding-left: 0px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
+.list-inline li {
+  display: inline-block;
 }
 
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
+
+html {
+  background-image: url("https://th.bing.com/th/id/OIP.0EZBdf1O95qZJy9CnjhqPAHaDt?w=347&h=174&c=7&r=0&o=5&dpr=2&pid=1.7");
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+.my-icon {
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.my-icon:hover {
+  color: gray;
+  scale: 1.5;
 }
